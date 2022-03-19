@@ -9,7 +9,7 @@ elif terms == 1:
 else:
     print("fibonacci sequence : ")
     while count < terms: 
-        print(first)
+        print(first,end=' ')
         next = first + second
         first=second
         second= next
