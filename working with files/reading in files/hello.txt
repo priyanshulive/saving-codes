@@ -1,0 +1,4 @@
+this is file first line .
+data is in human readable form .
+today is a great day .
+fourth line is amazing .
