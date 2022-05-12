@@ -1,0 +1,70 @@
+{% extends 'base.html' %}
+{% block homeactive %}active{% endblock homeactive %}
+{% block body %}
+
+<div class="container-fluid mx-0 px-0">
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/static/img/slider1.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="/static/img/slider2.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="/static/img/slider3.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+</div>
+<div class="container my-4">
+  <h3 class="text-center my-4"> Totally fine! </h3>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="text-center">
+        <img src="/static/img/spot1.png" class="rounded" alt="...">
+        <div class="my-4">
+
+          <h4>first</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, id exercitationem? Et nisi,
+            assumenda non expedita repellat unde, officia perferendis earum ab quae sequi modi quam qui? Officiis cumque
+            sint eos itaque, optio sapiente!</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="text-center">
+        <img src="/static/img/spot2.png" class="rounded" alt="...">
+        <div class="my-4">
+
+          <h4>second</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, id exercitationem? Et nisi,
+            assumenda non expedita repellat unde, officia perferendis earum ab quae sequi modi quam qui? Officiis cumque
+            sint eos itaque, optio sapiente!</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="text-center">
+        <img src="/static/img/spot3.png" class="rounded" alt="...">
+        <div class="my-4">
+
+          <h4>third</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, id exercitationem? Et nisi,
+            assumenda non expedita repellat unde, officia perferendis earum ab quae sequi modi quam qui? Officiis cumque
+            sint eos itaque, optio sapiente!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock body %}
